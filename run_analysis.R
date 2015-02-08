@@ -33,7 +33,7 @@
   xMeansurementExtract <- x[, featureSubSet]
   names(xMeansurementExtract) <- features[features$V1 %in% featureSubSet, 2]
   xMeansurementExtract 
-  
+
   # clean up
   rm(featureSubSet)
   rm(features)
@@ -63,5 +63,4 @@
   names(cleanDataAggregation)[1] <- c("subject")
   names(cleanDataAggregation)[2] <- c("activity")
 
-  write.csv(cleanDataAggregation, "cleanDataAggregation.csv")
-
+  write.table(cleanDataAggregation, "cleanDataAggregation.txt", row.name=FALSE)
