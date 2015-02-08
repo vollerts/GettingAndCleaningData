@@ -1,4 +1,4 @@
-# Getting And Cleaning Data - assignemnt codebook
+# Getting And Cleaning Data - codebook
 
 ## Background
 Course assignment of the coursera course [Getting and Cleaning Data](www.coursera.org/course/getdata 'Getting and Cleaning Data'). 
